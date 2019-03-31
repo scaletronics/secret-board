@@ -25,7 +25,7 @@ html(lang="ja")
           else
             h3 #{post.id} : ID:#{post.trackingCookie}
         div.card-body
-          p.card-text!= post.content
+          p(style="white-space:pre; overflow:auto;") #{post.content}
         div.card-footer
           div 投稿日時: #{post.formattedCreatedAt}
           - var isAdmin = (user === 'admin')
