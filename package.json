@@ -11,7 +11,7 @@
   "dependencies": {
     "cookies": "^0.7.3",
     "http-auth": "^3.2.3",
-    "moment-timezone": "^0.5.25",
+    "moment-timezone": "^0.5.35",
     "pg": "^7.11.0",
     "pg-hstore": "^2.3.3",
     "pug": "^2.0.3",
